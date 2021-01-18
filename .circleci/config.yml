@@ -9,4 +9,4 @@ jobs:
           password: hunter00zZ  # context / project UI env-var reference
     steps:
       - checkout
-      - run: ./mvn package
+      - run: ./mvnw package
